@@ -1,0 +1,134 @@
+.cabecalho {
+    background-color: rgb(179, 147, 118);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div1 {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-left: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.452);
+}
+
+.div2 {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+
+.div2 img {
+    width: 130px;
+}
+
+
+.logo {
+    width: 50px;
+}
+
+.menu-nav, nav, ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 8px;
+}
+
+.menu li a {
+    background-color: #2F5B66;
+    color: white;
+    font-size: 1.1rem;
+    border: 1px solid rgba(255, 255, 255, 0.452);
+    padding: 5px 15px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.menu li a:hover {
+    border: 1px solid black;
+    transition: 500ms;
+}
+
+.input-btn .bar{
+    background-color: #2F5B66;
+     text-align: center;
+}
+
+.input-btn input {
+    width: 30%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+
+.input-btn button {
+    padding: 05px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.input-btn button:hover {
+    background-color: white;
+}
+
+
+.figure, img{
+    width: 300px;
+    display: flex;
+    align-items: center;
+
+}
+
+.figure2, img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    
+}
+
+.item-a {
+    background-color: rgb(179, 147, 118);
+    padding: 5px;
+    border-radius: 8px 4px;
+    
+    
+}
+
+.item-ancoras {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.item-b {
+    background-color: rgb(179, 147, 118);
+    padding: 5px;
+    border-radius: 8px 4px;
+}
+
+
+.footer {
+    background-color: rgb(48, 45, 45);
+    text-align: center;
+    
+}
+
+.footer p {
+    margin-top: 40px;
+}
+
+
